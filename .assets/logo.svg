@@ -1,0 +1,33 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="64" x2="896" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="48%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="256" y1="256" x2="768" y2="768" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#D9F7FF" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="36" flood-color="#0F172A" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#bg)" filter="url(#shadow)"/>
+  <circle cx="330" cy="310" r="48" fill="white" fill-opacity="0.12"/>
+  <circle cx="702" cy="278" r="26" fill="white" fill-opacity="0.12"/>
+  <circle cx="742" cy="744" r="42" fill="white" fill-opacity="0.10"/>
+  <path d="M256 320C256 302.327 270.327 288 288 288H520C537.673 288 552 302.327 552 320V660C552 677.673 537.673 692 520 692H288C270.327 692 256 677.673 256 660V320Z" fill="white" fill-opacity="0.16"/>
+  <path d="M552 320C552 302.327 566.327 288 584 288H736C753.673 288 768 302.327 768 320V660C768 677.673 753.673 692 736 692H584C566.327 692 552 677.673 552 660V320Z" fill="white" fill-opacity="0.10"/>
+
+  <path d="M300 372H468" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M300 442H468" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M300 512H444" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+
+  <path d="M620 380L680 500L620 620" stroke="url(#accent)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 380L760 500L700 620" stroke="url(#accent)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M324 792C399 737 486 712 580 712C654 712 721 728 780 758" stroke="white" stroke-opacity="0.30" stroke-width="18" stroke-linecap="round"/>
+  <text x="512" y="860" text-anchor="middle" fill="white" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="58" font-weight="700">StudySage Pro</text>
+</svg>
